@@ -9,6 +9,11 @@
 2. `npm install`
 3. open http://localhost:1337/
 
+## To do
+- [ ] A nice logo
+- [ ] Styles
+- [ ] Tests
+
 ## Author
 Renan Couto
 
