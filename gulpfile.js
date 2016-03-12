@@ -82,3 +82,8 @@ gulp.task('default', [ 'images', 'html', 'scripts', 'styles', 'serve', 'watch' ]
 gulp.task('build', [ 'clean' ], function () {
   gulp.start([ 'images', 'html', 'scripts', 'styles' ])
 })
+
+// deploy the app to GH Pages
+gulp.task('deploy', function () {
+  return gulp.src('./dist/**/*').pipe($.ghPages())
+})
