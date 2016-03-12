@@ -1,0 +1,34 @@
+{
+  "brackets": {
+    "expect": "never",
+    "error": true
+  },
+  "colons": {
+    "expect": "never",
+    "error": true
+  },
+  "indentPref": {
+    "expect": 2,
+    "error": true
+  },
+  "prefixVarsWithDollar": {
+    "expect": "always",
+    "error": true
+  },
+  "quotePref": {
+    "expect": "single",
+    "error": true
+  },
+  "semicolons": {
+    "expect": "never",
+    "error": true
+  },
+  "stackedProperties": {
+    "expect": "never",
+    "error": true
+  },
+  "sortOrder": {
+    "expect": "alphabetical",
+    "error": true
+  }
+}
