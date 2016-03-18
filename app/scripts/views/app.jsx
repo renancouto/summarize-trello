@@ -40,7 +40,7 @@ class App extends React.Component {
         <Header>
           { data ? <User { ...data } /> : null }
         </Header>
-        <main>
+        <main className='h-limiter'>
           { data ? this.props.children : 'Loading' }
         </main>
       </div>

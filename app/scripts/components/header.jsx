@@ -9,8 +9,8 @@ import { Link } from 'react-router'
  */
 const Header = (props) => (
   <header className='main-header'>
-    <Link to='/'>Summarize Trello</Link>
-    {props.children}
+    <div className='main-header__logo'><Link to='/'>Summarize Trello</Link></div>
+    <div className='main-header__user'>{props.children}</div>
   </header>
 )
 
