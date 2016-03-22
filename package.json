@@ -8,7 +8,8 @@
   ],
   "main": "index.html",
   "scripts": {
-    "start": "gulp clean && gulp"
+    "start": "gulp clean && gulp",
+    "deploy": "gulp clean && gulp build && gulp deploy"
   },
   "author": "Renan Couto <renancouto@gmail.com>",
   "license": "MIT",
